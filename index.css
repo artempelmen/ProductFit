@@ -1,0 +1,741 @@
+@import url(/fonts/Gilroy-Bold/style.css);
+@font-face {
+    font-family: 'Gilroy';
+    src: local('Gilroy Bold'), local('Gilroy-Bold'),
+        url('Gilroy-Bold.woff2') format('woff2'),
+        url('Gilroy-Bold.woff') format('woff'),
+        url('Gilroy-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+  }
+
+/* Обнуление */
+*{padding: 0;margin: 0;bottom: 0;}
+*,*::before,*:after{-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{height: 100%;width: 100%;font-size: 100%;line-height:1;font-size: 14px;-ms-text-size-adjust: 100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust: 100%;}
+input,button,textarea{font-family: inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner{padding: 0;border: 0;}
+a,a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+
+
+.wrapper {
+width: 1230px;
+margin: 0 auto;    
+}
+
+
+.top_header {
+ display: flex;
+ justify-content: space-between;
+ /* border: 2px solid red; */
+}
+
+
+.logo_header {
+    margin-top: 31px;
+}
+
+.nav_header {
+    display: flex;
+    margin-top: 32px; 
+}
+
+.svg37 {
+    margin-right: 66px;
+    margin-top: 14px;
+}
+
+.editor-image-6 {
+    margin-right: 61px;
+    margin-top: 16px;
+}
+
+.vector {
+margin-right: 16px; 
+margin-top: 16px;  
+}
+
+.tel_nav {
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: #1E959B;
+    margin-right: 58px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.tel_nav_a{
+color: #1E959B;
+}
+
+.button_nav {
+    width: 187px;
+    border-radius: 15px;
+    border: none;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: bold;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    background-color: #F05670;
+    color: white;
+    text-transform: uppercase;
+}
+
+.header_info{
+    /* display: flex; */
+    border: 2px solid red;
+    height: 509px;
+    margin-top: 70px;
+    background-image: url(./Frame.svg);
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+
+
+h1{
+    font-size: 32px;
+    margin-top: 175px;
+    width: 222px;
+    height: 80px;
+    color: #1E959B;
+}
+
+
+.info_title {
+    width: 320px;
+    height: 48px;
+    Font-family: Gilroy;
+    Font-style: Regular;
+    Font-size: 14px;
+    vertical-align: top;
+    font-weight: 400;
+}
+
+.button_info{
+    width: 232px;
+    height: 70px;
+    margin-top: 50px;
+    box-shadow: 0 5px 10px 0 #1E959B80 ;
+    border-radius: 15px;
+    border: none;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: bold;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 17px;
+    background-color: #F05670;
+    color: white;
+    text-transform: uppercase;
+}
+
+.info_left {
+    /* margin-top: 175px; */
+}
+
+
+.info_title{
+    color: #3C3C3C;
+    width: 320px;
+    height: 48px;
+}
+
+.info_right{
+    width: 100%
+}
+
+
+.frame{
+    margin-top: 55px;
+    margin-left: 94px;
+}
+
+.footer_header{
+width: 100%;
+height:90px;
+background-color:#1E959B;
+}
+
+.Group106{
+margin-top: 17px;
+}
+
+.tasks {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 120px;
+
+}
+
+.items_tasks1 {
+    width: 195px;
+    height: 164px;
+    box-shadow: inset 0px 4px 4px rgba(30, 149, 155, 0.5);
+    border-radius: 25px;     
+}
+
+.items_tasks1 img{
+    margin-left: 57px;
+    margin-top: 27px;
+}
+
+.items_tasks img{
+    margin-left: 57px;
+    margin-top: 27px; 
+}
+
+.items_tasks  {
+    width: 195px;
+    height: 164px;
+    box-shadow: 0px 4px 4px rgba(30, 149, 155, 0.5);
+    border-radius: 25px;
+    
+}
+
+.items_tasks1 p{
+    margin-top: 21px;
+    margin-left: 22px;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: bold;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #3C3C3C;
+    text-transform: uppercase;
+    
+}
+
+.items_tasks p{
+    margin-top: 21px;
+    text-align: center;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: bold;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #3C3C3C;
+    text-transform: uppercase;
+}
+
+.project_left img {
+margin-top: 33px;
+}
+
+.project_info{
+    display: flex;
+}
+
+h2{
+    width: 371px;
+    height: 120px;
+    margin-top: 138px;
+    margin-left: 105px;
+    Font-family: Gilroy;
+    Font-style: normal;
+    Font-size: 32px;
+    Vertical-align: Top;
+    font-weight: 700;
+    color: #1E959B;
+}
+
+.project_title{
+    width: 310px;
+    height: 49px;
+    margin-top: 27px;
+    margin-left: 105px;
+    Font-family: Gilroy;
+    Font-style: Regular;
+    Font-size: 14px;
+    vertical-align: top;
+    font-weight: 400;
+}
+
+.button_project{
+   margin-top: 44px;
+   margin-left: 105px; 
+   width: 257px;
+    height: 70px;
+    margin-top: 50px;
+    box-shadow: 0 5px 10px 0 #1E959B80 ;
+    border-radius: 15px;
+    border: none;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: bold;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 17px;
+    color: white;
+    text-transform: uppercase;
+    background-color:#F05670;
+}
+
+h3{
+
+    
+    margin-top: 120px;
+Font-family: Gilroy;
+Font-weight: 700;
+Font-size: 32px;
+line-height: 40px;
+font-style: normal;
+Vertical-align: Top;
+color: #1E959B;
+text-transform: uppercase;
+text-align: center;
+
+
+}
+
+.figure{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; 
+    margin-top: 50px;
+    
+   
+
+}
+
+figure img{
+ margin-top: 25px;
+}
+
+.cabify {
+    width: 320px;
+    height: 320px;
+}
+.cabify figcaption{
+margin-top: 5px;
+width: 232px;
+margin-left: 44px;
+
+}
+
+.ural-airlines {
+    width: 320px;
+    height: 320px;
+}
+
+.ural-airlines figcaption{
+width: 214px;
+margin-top: 5px;
+margin-left: 45px;
+}
+.opengift {
+    width: 320px;
+    height: 320px;
+}
+
+.opengift figcaption {
+width: 221px;
+margin-top: 5px;
+margin-left: 45px;
+}
+
+.plandi {
+    width: 320px;
+    height: 320px;
+    margin-top: 46px;
+}
+
+.plandi figcaption {
+    width: 233px;
+    margin-top: 5px;
+    margin-left: 45px;
+}
+.coalicia {
+    width: 320px;
+    height: 320px;
+    margin-top: 46px;
+    
+}
+
+.coalicia figcaption {
+width: 256px;
+margin-top: 5px;
+margin-left: 32px;
+}
+
+.rubetek {
+    width: 320px;
+    height: 320px;
+    margin-top: 46px;
+}
+
+.rubetek figcaption {
+width: 236px;
+margin-top: 5px;
+margin-left:45px ;
+}
+
+h4{
+    Font-family: Gilroy;
+    Font-style: Bold;
+    Font-size: 16px;
+    Vertical-align: Top ;
+    color: #1E959B;
+    margin-top: 19px;
+}
+
+figure{
+    Font-family: Gilroy;
+Font-style: Regular;
+Font-size: 14px;
+Vertical-align: Top;
+color: #3C3C3C;
+text-align: center;
+border-radius: 25px;
+background: linear-gradient(180deg, #FFFFFF 0%, #F7F9FD 100%);
+box-shadow: 0 10px 5px -5px rgba(30, 149, 155, 0.5);
+
+
+
+}
+
+.figure_button {
+ margin-top: 44px;
+
+    width: 233px;
+    height: 70px;
+    border: none;
+    border: 2px solid #1E959B; ;
+    border-radius: 20px;
+    color:  #1E959B;
+    Font-family: Gilroy;
+Font-weight: 700;
+Font-size: 16px;
+line-height: 20px;
+font-style: normal;
+Vertical-align: Top;
+text-transform: uppercase;
+text-align: center;
+background-color: white;
+}
+
+
+.figure_content {
+    display: flex;
+    justify-content: center;
+}
+
+.banner_btn {
+    margin-top: 120px;
+}
+
+
+
+
+.selector_section {
+    min-width: 1441px;
+    height: 700px;
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content:space-between; 
+    margin-top: 120px;
+    /* border: 2px solid blue; */
+}
+
+.selector_item {
+    position: relative;
+    /* border: 2px solid red; */
+    width: 289px;
+    height: 305px;
+    border-radius: 30px;
+    box-shadow: 0px 4px 4px rgba(30, 149, 155, 0.5);
+    background-color: #fff;
+}
+
+.selector_img{
+    position: absolute;
+    bottom: 166px;
+    left: 51px;
+    width: 182px;
+    height: 182px;
+    background-color: #1E959B;
+    border-radius: 50%;
+    
+}
+
+.selector_img img{
+    margin-left: 38px;
+    margin-top: 39px;
+}
+
+h5{
+  margin-top: 171px;
+    color:  #1E959B;
+    Font-family: Gilroy;
+Font-weight: 700;
+Font-size: 24px;
+line-height: 30px;
+font-style: normal;
+Vertical-align: Top;
+text-transform: uppercase;
+text-align: center;
+background-color: white;
+}
+
+.h5{
+    margin-top: 140px;
+    color:  #1E959B;
+    Font-family: Gilroy;
+Font-weight: 700;
+Font-size: 24px;
+line-height: 30px;
+font-style: normal;
+Vertical-align: Top;
+text-transform: uppercase;
+text-align: center;
+background-color: white;   
+}
+.selector_button {
+    margin-top: 28px;
+    margin-left: 41px;
+    width: 206px;
+    height: 62px;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    Font-family: Gilroy;
+Font-weight: 700;
+Font-size: 16px;
+line-height: 20px;
+font-style: normal;
+Vertical-align: Top;
+text-transform: uppercase;
+text-align: center;
+background-color: #F05670;
+
+
+}
+
+.group152{
+    margin-top: 125px;
+    margin-left: 325px;
+   
+}
+
+footer{
+    margin-top: 84px;
+}
+
+.footer_nav{
+    display: flex;
+    /* border: 2px solid red; */
+    justify-content: space-between;
+    padding-top: 79px;
+}
+
+.group59{
+    width: 69px;
+    height: 64px;
+    background: linear-gradient(270deg, #1E959B 0%, #AFDEDE 100%);
+    box-shadow: 0px 5px 10px 0px #1E959B80;
+    border-radius: 20px;
+}
+
+.group59 img{
+    padding-left: 20px;
+    padding-top: 14px;
+}
+
+.ip {
+    width: 290px;
+    height: 136px;
+}
+
+.copyright {
+   text-align: center;
+}
+
+.footer_list a{
+font-family: Gilroy;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0em;
+text-align: left;
+color:#1E959B;
+}
+
+
+.footer-37 {
+    margin-top: 10px;
+}
+.footer-6 {
+    margin-top: 10px;
+}
+
+
+
+
+
+.copyright {
+font-family: Gilroy;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0em;
+text-align: center;
+color: rgba(60, 60, 60, 0.5);
+
+
+}
+
+@media (max-width: 411px) {
+
+    .header {
+    }
+    .wrapper {
+    }
+    .top_header {
+        max-width: 411px;
+        
+    }
+    .logo_header {
+       margin: 0 auto;
+       margin-top: 31px;
+    }
+    .nav_header {
+        display: none;
+    }
+    .svg37 {
+    }
+    .editor-image-6 {
+    }
+    .vector {
+    }
+    .tel_nav {
+    }
+    .tel_nav_a {
+    }
+    .button_nav {
+    }
+    .main_header {
+
+    }
+    .header_info {
+        margin-top: 1px;
+        width: 411px;
+        /* height: 545px; */
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: top 170px center;
+        bp
+        
+    }
+    .info_left {
+        
+    }
+    .info_title {
+        margin-left: 70px;
+    }
+    h1{
+        font-size:32px ;
+  margin-top: 63px; 
+margin-left: 114px;
+    }
+    .button_info {
+        margin-left: 88px;
+        margin-top: 152px;
+    }
+    .footer_header {
+    }
+    .footer_brands {
+    }
+    .nav_footer {
+    }
+    .Group106 {
+        display: none;
+    }
+    .project_section {
+    }
+    .tasks {
+    }
+    .items_tasks1 {
+    }
+    .items_tasks {
+    }
+    .project_info {
+    }
+    .project_left {
+    }
+    .project_right {
+    }
+    .project_title {
+    }
+    .button_project {
+    }
+    .figure {
+    }
+    .cabify {
+    }
+    .ural-airlines {
+    }
+    .opengift {
+    }
+    .plandi {
+    }
+    .coalicia {
+    }
+    .rubetek {
+    }
+    .figure_content {
+    }
+    .figure_button {
+    }
+    .banner_btn {
+    }
+    .banner_slider {
+    }
+    .selector_section {
+    }
+    .selector_item {
+    }
+    .selector_img {
+    }
+    .selector_button {
+    }
+    .h5 {
+    }
+    .group152 {
+    }
+    .footer {
+    }
+    .footer_nav {
+    }
+    .footer_list {
+    }
+    .footer-37 {
+    }
+    .footer-6 {
+    }
+    .group59 {
+    }
+    .ip {
+    }
+    .copyright {
+    }
+
+}
