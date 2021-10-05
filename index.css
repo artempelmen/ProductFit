@@ -446,12 +446,13 @@ background-color: white;
 
 
 .selector_section {
-    margin: 0 auto;
-    height: 700px;
     display: flex; 
     flex-wrap: wrap;
     justify-content: space-around;
-    align-content:space-between; 
+    align-content:space-between;
+    max-width: 1441px;
+    margin: 0 auto;
+    height: 700px; 
     margin-top: 120px;
     /* border: 2px solid blue; */
 }
@@ -530,11 +531,18 @@ background-color: #F05670;
 
 }
 
-.group152{
+
+.group152 {
+    display: flex;
+    margin: 0 auto;
+    margin-top: 126px;
+}
+
+/* .group152{
     margin-top: 125px;
     margin-left: 325px;
    
-}
+} */
 
 footer{
     margin-top: 84px;
