@@ -96,8 +96,8 @@ color: #1E959B;
 }
 
 .header_info{
-    /* display: flex; */
-    border: 2px solid red;
+    display: flex; 
+     /* border: 2px solid red; */
     height: 509px;
     margin-top: 70px;
     background-image: url(./Frame.svg);
@@ -161,7 +161,7 @@ h1{
 
 
 .frame{
-    margin-top: 55px;
+    /* margin-top: 55px; */
     margin-left: 94px;
 }
 
